@@ -1,0 +1,67 @@
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('../contact.jpg') no-repeat center center/cover;
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input, 
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+} 
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+   font-size: 1.3rem;
+   font-family: 'Bree Serif', serif;
+
+}
+#home-center1{
+    margin-left: 460px;
+}
+#home-center2{
+    margin-left: 60px;
+}
+#logo2{
+    height: 70px;
+    width: 70px;
+}
+#bacimg{
+    background-image: url(image/cam.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+
+}
+#con{
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+}
+#oneone {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+

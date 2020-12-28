@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    padding-bottom: 140px;
+    min-height: 100vh;
+}
+#logo1{
+    height: 70px;
+    width: 70px;
+  }
+  #imagediv{
+      background: url(image/vaccine4.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 1115px;
+           
+      
+
+  }
+
+
+  
+
+.nav-item{
+    margin-left: 60px;
+}
+.footer{
+    
+    background-color: black;
+    height:140px;
+    width: 100%;
+    padding-top: 10px;
+    position: absolute;
+    bottom: 0px;
+    
+
+}
+.foot{
+    
+    text-align: center;
+    color: blanchedalmond;
+}
+.social{
+    text-decoration: none;
+    list-style-type: none;
+    
+    
+}
+.footer ul li{
+    display: inline-block;
+    margin-left: 40px;
+    padding-bottom: 4px;
+    
+}
+.one{
+    text-align: center;
+}
+#para{
+   
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+.display-3{
+    padding-top: 250px;
+    color: white;
+}
+#want{
+    color: white;
+    font-size: 24px;
+}
+#want1{
+    color: white;
+    font-size: 16px;
+}
+
+#navbarSupportedContent{
+    display: flexbox;
+    margin-left: 85px;
+}
+@media only screen and (max-width:768px){
+    #imgdiv {
+        background-image: url(image/vaccine4.jpg);
+
+    }
+}
+
+
